@@ -7,14 +7,30 @@ function calc(){
     var day= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
     var dayFixed= day.toFixed();
     var calculate;
-    if(gender == "male" && dayFixed == 5){
-        console.log("Tuesday")
+    // male names
+    if(gender == "male" && dayFixed == 0){
+        console.log("")
   }
-    else if(gender == "male" && dayFixed == 5){
-        console.log("Tuesday")
+    else if(gender == "male" && dayFixed == 0){
+        console.log("")
   }
-    else if(gender == "male" && dayFixed == 5){
-          console.log("Tuesday")
-    }
-    
+  if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+else if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+else if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+else if(gender == "male" && dayFixed == 0){
+    console.log("")
+}
+
 }
