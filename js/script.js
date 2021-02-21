@@ -8,16 +8,8 @@ function calc(){
     var dayFixed= day.toFixed();
     console.log(day)
     var calculate;
-    //error
-    if(cc>=99 || c<=0){
-        document.querySelector("#result2").innerHTML="INVALID CENTURY";
-    }
-    else if(yy>=100){
-        document.querySelector("#result2").innerHTML="INVALID CENTURY";
-    }
    
-    //male number
-    else if(gender == "male" && dayFixed == 0){
+    if(gender == "male" && dayFixed == 0){
         document.querySelector("#result").innerHTML="Kwame";
   }
     else if(gender == "male" && dayFixed == 1){
@@ -38,7 +30,7 @@ else if(gender == "male" && dayFixed == 5){
 else if(gender == "male" && dayFixed == 6){
     document.querySelector("#result").innerHTML="Kofi";
     }
-//Females names
+
 else if(gender == "female" && dayFixed == 0){
     document.querySelector("#result").innerHTML="Ama";
 }
