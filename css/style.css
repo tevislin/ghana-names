@@ -2,6 +2,16 @@
   margin: 0%;
 }
 .header {
-  height: 12%;
+  height: 7vh;
   background-color: rgb(22, 22, 22);
+}
+.header h1 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.wrapper {
+  background-image: url(b1.jpg);
+  height: 93vh;
+  background-position: center;
 }
