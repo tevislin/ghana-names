@@ -9,28 +9,25 @@ function calc(){
     var calculate;
     // male names
     if(gender == "male" && dayFixed == 0){
-        console.log("")
+        document.querySelector("#result").innerHTML="Kwame";
   }
-    else if(gender == "male" && dayFixed == 0){
-        console.log("")
+    else if(gender == "male" && dayFixed == 1){
+        document.querySelector("#result").innerHTML="Kwasi";
   }
-  if(gender == "male" && dayFixed == 0){
-    console.log("")
+  else if(gender == "male" && dayFixed == 2){
+    document.querySelector("#result").innerHTML="Kwadwo";
 }
-else if(gender == "male" && dayFixed == 0){
-    console.log("")
+else if(gender == "male" && dayFixed == 3){
+    document.querySelector("#result").innerHTML="Kwabena";
 }
-if(gender == "male" && dayFixed == 0){
-    console.log("")
+else if(gender == "male" && dayFixed == 4){
+    document.querySelector("#result").innerHTML="Kwaku";
 }
-else if(gender == "male" && dayFixed == 0){
-    console.log("")
+else if(gender == "male" && dayFixed == 5){
+    document.querySelector("#result").innerHTML="Yaw";
 }
-if(gender == "male" && dayFixed == 0){
-    console.log("")
-}
-else if(gender == "male" && dayFixed == 0){
-    console.log("")
+else if(gender == "male" && dayFixed == 6){
+    document.querySelector("#result").innerHTML="Kofi";
 }
 
 }
