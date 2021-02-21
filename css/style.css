@@ -29,3 +29,10 @@
 .description p {
   padding-left: 20px;
 }
+.card {
+  height: 300px;
+  width: 260px;
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+}
