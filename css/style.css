@@ -37,10 +37,23 @@
 .card {
   height: 300px;
   width: 260px;
-  background-image: url(1.jpg);
+
   background-size: cover;
   background-position: center;
   display: inline-block;
   margin: 20px;
   border-radius: 20px;
+}
+
+.card1 {
+  background-image: url(1.jpg);
+}
+.card2 {
+  background-image: url(2.jpg);
+}
+.card3 {
+  background-image: url(3.jpg);
+}
+.card4 {
+  background-image: url(4.jpg);
 }
