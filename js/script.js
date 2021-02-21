@@ -14,10 +14,10 @@ function calc(){
     else if(cc>=21 || cc<17){
         alert("Invalid century. century can only be between 18 to 20");
     }
-    else if(dd=>32 || dd<0){
+    else if(dd>=32 || dd<=0){
         alert("Please enter a valid date, this can only be between 1 to 31");
     }
-    else if(yy=>100){
+    else if(yy>=100){
         alert("Invalid year please enter a year between 00 to 99")
     }
    else if(gender == "male" && dayFixed == 0){
