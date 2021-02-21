@@ -21,47 +21,47 @@ function calc(){
         alert("Invalid year please enter a year between 00 to 99")
     }
    else if(gender == "male" && dayFixed == 0){
-        document.querySelector("#result").innerHTML="Kwame";
+        document.querySelector("#result").innerHTML="Your Akan name is Kwame";
   }
     else if(gender == "male" && dayFixed == 1){
-        document.querySelector("#result").innerHTML="Kwasi";
+        document.querySelector("#result").innerHTML="Your Akan name is Kwasi";
   }
   else if(gender == "male" && dayFixed == 2){
-    document.querySelector("#result").innerHTML="Kwadwo";
+    document.querySelector("#result").innerHTML="Your Akan name is Kwadwo";
 }
 else if(gender == "male" && dayFixed == 3){
-    document.querySelector("#result").innerHTML="Kwabena";
+    document.querySelector("#result").innerHTML="Your Akan name is Kwabena";
 }
 else if(gender == "male" && dayFixed == 4){
-    document.querySelector("#result").innerHTML="Kwaku";
+    document.querySelector("#result").innerHTML="Your Akan name is Kwaku";
 }
 else if(gender == "male" && dayFixed == 5){
-    document.querySelector("#result").innerHTML="Yaw";
+    document.querySelector("#result").innerHTML="Your Akan name is Yaw";
 }
 else if(gender == "male" && dayFixed == 6){
-    document.querySelector("#result").innerHTML="Kofi";
+    document.querySelector("#result").innerHTML="Your Akan name is Kofi";
     }
 
 else if(gender == "female" && dayFixed == 0){
-    document.querySelector("#result").innerHTML="Ama";
+    document.querySelector("#result").innerHTML="Your Akan name is Ama";
 }
 else if(gender == "female" && dayFixed == 1){
-    document.querySelector("#result").innerHTML=" Akosua";
+    document.querySelector("#result").innerHTML="Your Akan name is Akosua";
 }
 else if(gender == "female" && dayFixed == 2){
-document.querySelector("#result").innerHTML="Adwoa";
+document.querySelector("#result").innerHTML="Your Akan name is Adwoa";
 }
 else if(gender == "female" && dayFixed == 3){
-document.querySelector("#result").innerHTML="Abenaa";
+document.querySelector("#result").innerHTML="Your Akan name is Abenaa";
 }
 else if(gender == "female" && dayFixed == 4){
-document.querySelector("#result").innerHTML="Akua";
+document.querySelector("#result").innerHTML="Your Akan name is Akua";
 }
 else if(gender == "female" && dayFixed == 5){
-document.querySelector("#result").innerHTML="Yaa";
+document.querySelector("#result").innerHTML="Your Akan name is Yaa";
 }
 else if(gender == "female" && dayFixed == 6){
-document.querySelector("#result").innerHTML="Afua";
+document.querySelector("#result").innerHTML="Your Akan name is Afua";
 }
 
 }
