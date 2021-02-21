@@ -6,9 +6,18 @@ function calc(){
     var gender=document.querySelector("#gender").value;
     var day= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
     var dayFixed= day.toFixed();
+    console.log(day)
     var calculate;
-    // male names
-    if(gender == "male" && dayFixed == 0){
+    //error
+    if(cc>=99 || c<=0){
+        document.querySelector("#result2").innerHTML="INVALID CENTURY";
+    }
+    else if(yy>=100){
+        document.querySelector("#result2").innerHTML="INVALID CENTURY";
+    }
+   
+    //male number
+    else if(gender == "male" && dayFixed == 0){
         document.querySelector("#result").innerHTML="Kwame";
   }
     else if(gender == "male" && dayFixed == 1){
@@ -28,6 +37,28 @@ else if(gender == "male" && dayFixed == 5){
 }
 else if(gender == "male" && dayFixed == 6){
     document.querySelector("#result").innerHTML="Kofi";
+    }
+//Females names
+else if(gender == "female" && dayFixed == 0){
+    document.querySelector("#result").innerHTML="Ama";
+}
+else if(gender == "female" && dayFixed == 1){
+    document.querySelector("#result").innerHTML=" Akosua";
+}
+else if(gender == "female" && dayFixed == 2){
+document.querySelector("#result").innerHTML="Adwoa";
+}
+else if(gender == "female" && dayFixed == 3){
+document.querySelector("#result").innerHTML="Abenaa";
+}
+else if(gender == "female" && dayFixed == 4){
+document.querySelector("#result").innerHTML="Akua";
+}
+else if(gender == "female" && dayFixed == 5){
+document.querySelector("#result").innerHTML="Yaa";
+}
+else if(gender == "female" && dayFixed == 6){
+document.querySelector("#result").innerHTML="Afua";
 }
 
 }
