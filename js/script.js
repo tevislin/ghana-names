@@ -11,7 +11,7 @@ function calc(){
     if(mm>=13 || 0>mm){
         alert("Invalid month. month can only be between 1 to 12");
     }
-    else if(cc>=21 || cc>17){
+    else if(cc>=21 || cc<17){
         alert("Invalid century. century can only be between 18 to 20");
     }
     else if(dd=>32 || dd<0){
