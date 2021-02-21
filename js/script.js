@@ -1,10 +1,20 @@
-var date =function(c,y, m,d,){
-    return ( ( (c/4) -2*c-1) + ((5*y/4) ) + ((26*(m+1)/10)) + d )%7;
+function calc(){
+    var cc= parseInt(document.querySelector("#cc").value);
+    var yy= parseInt(document.querySelector("#yy").value);
+    var mm= parseInt(document.querySelector("#mm").value);
+    var dd= parseInt(document.querySelector("#dd").value);
+    var gender=document.querySelector("#gender").value;
+    var day= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
+    var dayFixed= day.toFixed();
+    var calculate;
+    if(gender == "male" && dayFixed == 5){
+        console.log("Tuesday")
   }
-  var c = parseInt(prompt("Enter century of birth"));
-  var y = parseInt(prompt("Enter year without century of birth"));
-  var m = parseInt(prompt("Enter month"));
-  var d = parseInt(prompt("Enter date of birth"));
-  var gender =confirm("Are you male?");
-  var day = date(c,y,m,d);
-  alert(day);
+    else if(gender == "male" && dayFixed == 5){
+        console.log("Tuesday")
+  }
+    else if(gender == "male" && dayFixed == 5){
+          console.log("Tuesday")
+    }
+    
+}
