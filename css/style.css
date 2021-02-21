@@ -65,8 +65,14 @@
   height: 88vh;
 }
 .formstuff {
-  background-color: red;
 }
 form {
-  display: flex;
+  margin-top: 100px;
+}
+#dd {
+  width: 150px;
+  height: 20px;
+  border-radius: 20px;
+  border-color: black;
+  padding: 20px;
 }

@@ -8,10 +8,13 @@ function calc(){
     var dayFixed= day.toFixed();
     console.log(day)
     var calculate;
-   
-    if(gender == "male" && dayFixed == 0){
-        document.querySelector("#result").innerHTML="Kwame";
-  }
+    if(mm>=13 || 0>mm){
+        alert("Invalid month. month can only be between 1 to 12");
+    }
+    else if(cc>=21 || cc>17){
+        alert("Invalid century. century can only be between 18 to 20");
+    }
+  
     else if(gender == "male" && dayFixed == 1){
         document.querySelector("#result").innerHTML="Kwasi";
   }
