@@ -37,7 +37,7 @@
 .card {
   height: 300px;
   width: 260px;
-
+  transition: 0.5s;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -56,4 +56,17 @@
 }
 .card4 {
   background-image: url(4.jpg);
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px black;
+}
+.wrapper2 {
+  height: 88vh;
+}
+.formstuff {
+  background-color: red;
+}
+form {
+  display: flex;
 }
