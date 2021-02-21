@@ -3,6 +3,8 @@
   <head>
     <title>AKAN</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="js/script.js"></script>
@@ -25,6 +27,10 @@
     </div>
     <div class="wrapper2">
     <div class="formstuff">
+      <div class="instruction"><h1>Enter your date of birth</H1>
+        <p><span style = color:red;>Important</span> entering year of birth enter the first two digits of the year cc and the thirsd and forth in yy</p>
+        <p><em style = color:red;>Example</em> if born in 1948 cc=19 and yy=48</p>
+      </div>
       <form>
         <input type="text" id="cc" name="cc" placeholder="century(cc)"/>
         <input type="text" id="yy" name="yy" placeholder="year(yy)"/>
@@ -37,7 +43,6 @@
         <button type="button" onclick="calc()">SUBMIT</button>
       </form>
       <div id="result"></div>
-      <div id="result2"></div>
     </div>
     </div2>
     <div class="footer"></div>
